@@ -1,0 +1,65 @@
+/* External styling */
+
+body {
+    background-color: #5B83A8;
+}
+
+li.navigation {
+    display: inline-block;
+    margin-right: 20px; /* adding spacing between items */
+}
+
+p {
+    background-color: #292E33;
+    color: #dadde0;
+    padding: 10px;
+    text-align: center
+}
+
+p.hat-names {
+    background-color: #E1AD01;
+    padding: 5px;
+    text-align: center    
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+.hat-caption {
+    display: inline-block;
+    color: #222B33;
+    width: 31%
+}
+
+img {
+    border-inline: 5px solid #343C42;
+    writing-mode: vertical-lr;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img.hat-category {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a:link {
+    color: rgb(7, 51, 90);
+}
+
+a:visited {
+   color: #111416  
+}
+
+a:hover {
+    color: pink
+}
+
+/*  */
