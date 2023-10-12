@@ -28,14 +28,14 @@ function specialMessage(email) {
     if(email == null || email == "") {
         email = prompt('Please provide your email so we can stay in touch');
     }
-    if(email !== null || email !== "") {
-        document.write(` Thanks for providing your email, we'll be in touch shortly.`);
+    if(email == null || email == "") {
+        document.write(` Please consider joining our mailing list!.`);
     } else {
-        document.write(` Please consider joining our mailing list!`)
+        document.write(` Thanks for providing your email, we'll be in touch shortly`)
     }
 }
 
-
+// Thanks for providing your email, we'll be in touch shortly
 
 
 
