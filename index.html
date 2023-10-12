@@ -6,6 +6,13 @@
     <title>The Hat Shop</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
+<script src="app.js"></script>
+
+<script>
+    console.log('Hi from the index page!')
+</script>
+
 <body>
 <header>
     <h1>The Hat Shop</h1>
@@ -38,7 +45,7 @@
 
     <section class="hat-caption">
         <h2>Truckers</h2>
-        <a href="https://www.goorin.com/"></a><img alt="Trucker hat photo" src="trucker.jpeg" class="hat-category"></a>
+        <a href="https://www.goorin.com/"><img alt="Trucker hat photo" src="trucker.jpeg" class="hat-category"></a>
         <p class="hat-names">
             <a href="https://www.goorin.com/">Trucker hat names</a>
         </p>
@@ -59,6 +66,14 @@
         <li class="navigation"><a href="/">Support</a></li>
         <li class="navigation"><a href="/">Returns</a></li>
     </ul>
+
+    <script>
+        if(window.confirm(`Do you really like hats? Click 'OK' for yes and 'Cancel' for no`)) {
+            alert(`Then you're in the right place!`);
+        } else { 
+            window.open("https://www.google.com/", "Thanks for visiting!");
+        }
+    </script>
 </footer>
 </body>
 </html>
