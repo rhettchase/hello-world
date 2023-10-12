@@ -29,7 +29,7 @@ function specialMessage(email) {
         email = prompt('Please provide your email so we can stay in touch');
     }
     if(email == null || email == "") {
-        document.write(` Please consider joining our mailing list!.`);
+        document.write(` Please consider joining our mailing list!`);
     } else {
         document.write(` Thanks for providing your email, we'll be in touch shortly`)
     }
