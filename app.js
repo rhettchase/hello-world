@@ -12,7 +12,7 @@ function greetUser(name) {
     while(name == null || name == ""){
         name = prompt('Please provide your name for a customized experience');
     }
-    
+
     if (name == null || name == ""){
         document.write('Hi, welcome to The Hat Shop!');
     } else {
@@ -41,7 +41,7 @@ function howManyHats() {
 
     for(let i = 0; i < num; i++) {
         document.write("<img src='fedora.jpeg' alt='fedoras for everyone!' >")
-        document.write(`<p>hat number ${i + 1}</p>`)
+        document.write(`<p>Hat number ${i + 1}</p>`)
     }
 }
 
