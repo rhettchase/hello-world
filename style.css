@@ -22,6 +22,12 @@ p.hat-names {
     text-align: center    
 }
 
+/* p.loop {
+    padding: 5px;
+    display: inline-block;
+    text-align: center;
+} */
+
 h1 {
     width: 30%;
     margin: auto;
@@ -51,6 +57,12 @@ img.hat-category {
     margin-left: auto;
     margin-right: auto;
 }
+
+/* img.loop {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+} */
 
 a:link {
     color: rgb(7, 51, 90);

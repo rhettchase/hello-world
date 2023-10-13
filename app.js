@@ -9,9 +9,10 @@ function getName() {
 
 
 function greetUser(name) {
-    if(name == null || name == ""){
+    while(name == null || name == ""){
         name = prompt('Please provide your name for a customized experience');
     }
+    
     if (name == null || name == ""){
         document.write('Hi, welcome to The Hat Shop!');
     } else {
@@ -35,7 +36,16 @@ function specialMessage(email) {
     }
 }
 
-// Thanks for providing your email, we'll be in touch shortly
+function howManyHats() {
+    let num = prompt('How many hats do you want to see (1-5)?');
+
+    for(let i = 0; i < num; i++) {
+        document.write("<img src='fedora.jpeg' alt='fedoras for everyone!' >")
+        document.write(`<p>hat number ${i + 1}</p>`)
+    }
+}
+
+
 
 
 
